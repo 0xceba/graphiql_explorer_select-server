@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# GraphiQL with Explorer and Server Select Plugins
+This is a React application that integrates GraphiQL with the Explorer and Explorer plugins. The Explorer plugin provides an interactive interface for visually exploring and constructing GraphQL operations, as seen below:
+!assets/README_explorer.png!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Select Server plugin allows users to conveniently switch the GraphQL endpoint, as seen below:
+!assets/README_server-select.png!
 
-## Available Scripts
+## Features
+- **GraphiQL**: A graphical interactive in-browser GraphQL IDE. Source repo: https://github.com/graphql/graphiql.
+- **Explorer Plugin**: Provides an interactive way to explore the GraphQL schema. Source repo: https://github.com/OneGraph/graphiql-explorer.
+- **Select Server Plugin**: Allows users to switch between different GraphQL endpoints. Source repo: https://github.com/graphql/graphiql/blob/main/examples/graphiql-webpack/src/select-server-plugin.jsx.
 
-In the project directory, you can run:
+## Getting Started
+### Prerequisites
+- Node.js (v14 or later)
+- npm (v6 or later)
 
-### `npm start`
+### Install the Dependencies
+To install the application's dependencies, run:
+```bash
+npm install
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Running the Application
+To run the application on the Webpack Development Server, run:
+```bash
+npm start
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Building for Production
+To build the application for production, run:
+```bash
+npm run build
+```
