@@ -1,8 +1,8 @@
 # GraphiQL with Explorer and Server Select Plugins
-This is a React application that integrates GraphiQL with the Explorer and Explorer plugins. The Explorer plugin provides an interactive interface for visually exploring and constructing GraphQL operations, as seen below:
+This is a React application that integrates GraphiQL with the Explorer and Select Server plugins. The Explorer plugin provides an interactive interface for visually exploring and constructing GraphQL operations, as seen below:
 ![GraphiQL with Explorer plugin visible](assets/README_explorer.png)
 
-The Select Server plugin allows users to conveniently switch the GraphQL endpoint, as seen below:
+The Select Server plugin lets users conveniently switch the GraphQL endpoint, as seen below:
 ![GraphiQL with Select Server plugin visible](assets/README_server-select.png)
 
 ## Features
